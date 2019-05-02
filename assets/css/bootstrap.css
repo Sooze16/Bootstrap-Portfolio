@@ -12,9 +12,13 @@ font-family: peanuts;
 
 
 .my-nav {
-    background-color:#ffffff;
-    color:color #4aaaa5;
+    background-color:#4aaaa5;
+    font-size: 20px;
+    color: white;
+    border: 2px solid #666666;
     
+}
+a {color:white
 }
 
 .name {color:#ffffff;
@@ -42,7 +46,15 @@ border-right: 2px sol #666666;
 
 .portfolio-box {
     background-color: #ffffff;
-    margin-top: 20px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    padding: 50px;
+    color: #4aaaa5;
+    border: 2px solid #666666;
+}
+.contact-box {background-color: #ffffff;
+    margin-top: 5%;
+    margin-bottom: 10%;
     padding: 50px;
     color: #4aaaa5;
     border: 2px solid #666666;
