@@ -1,0 +1,92 @@
+@font-face {
+	font-family: peanuts;
+	src: url(./PEANUTS_.TTF);
+}
+
+body {
+	background-image: url(../css/wet_snow/wet_snow.png);
+	font-family: peanuts;
+}
+
+h1 {margin-left: 20px;
+ padding: 10px;
+
+}
+
+
+.my-nav {
+
+	background-color: #4aaaa5;
+	border: 2px solid #666666;
+	color:white;
+}
+.my-nav_sub {
+	margin-top: 10px;
+	background-color: #4aaaa5;
+	border: none;
+	color:white;
+}
+.nav-link{
+	color:white;
+}
+
+a {
+	color: white;
+	font-size: 22px;
+	padding-left: 80px;
+}
+.img-responsive{
+	width: 100%;
+}
+.name {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 2px;
+}
+
+.my-ni {
+	color: #666666;
+	border-right: 2px sol #666666;
+}
+
+.bio-box {
+	background-color: #ffffff;
+	margin-top: 20px;
+	padding: 50px;
+	color: #4aaaa5;
+	border: 2px solid #666666;
+}
+
+.thumbnail {
+	border: 2px solid #666666;
+}
+
+.portfolio-box {
+	background-color: #ffffff;
+	margin-top: 5%;
+	margin-bottom: 10%;
+    padding: 50px;
+    
+	color: #4aaaa5;
+	border: 2px solid #666666;
+}
+.contact-box {
+	background-color: #ffffff;
+	margin-top: 5%;
+	margin-bottom: 10%;
+	padding: 50px;
+	color: #4aaaa5;
+	border: 2px solid #666666;
+}
+
+.my-footer {
+	color: #ffffff;
+	text-align: center;
+	border: 2px solid #666666;
+	background-color: #4aaaa5;
+	padding-top: 10px;
+}
+
+btn-primary {
+	color: orange;
+}

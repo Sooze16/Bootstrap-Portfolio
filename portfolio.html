@@ -10,7 +10,7 @@
  
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
 
     <link rel="stylesheet" type="text/css" href="assets/css/PEANUTS_.TTF">
 
@@ -19,26 +19,41 @@
 </head>
 <body>
 
-    <nav class="navbar my-nav">
-        <a href="# class ="name">Susan Kramer</a>
-
-
-    <ul class="nav justify-content-end">
-        
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        
-        </li>
-      </ul>
-
-      </nav>
+    <div class="  my-nav">
+        <div class="row">
+           <div class="col-sm-3">
+           <p >
+               Susan Kramer
+           </p>
+           
+           </div>
+       
+           <div class="col-sm-9">
+       
+               <nav class="navbar navbar-expand-lg navbar-light  my-nav_sub">
+                   
+                   <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+                   </button>
+                   <div class="collapse navbar-collapse" id="navbarNav">
+                     <ul class="navbar-nav ml-auto">
+                       <li class="nav-item active">
+                         <a   href="./index.html">About Me</a>
+                       </li>
+                       <li class="nav-item">
+                         <a   href="./portfolio.html">Portfolio</a>
+                       </li>
+                       <li class="nav-item">
+                         <a   href="./contact.html">Contact</a>
+                       </li>
+                       
+                     </ul>
+                   </div>
+                 </nav>
+           </div>
+        </div>
+       </div>
+       
 <div class="container">
   <div class="portfolio-box">
       <div class ="row">
@@ -49,10 +64,6 @@
           </div>
       </div>
       <div class="row">
-          <div class="col-md-12">
-        </div>
-            <div id="mdb-lightbox-ui"></div>
-          
             <div class="mdb-lightbox">
 
               <div class="row">
@@ -118,7 +129,7 @@
         
           </div>
         </div>
-  </div>
+  <!-- </div> -->
 </div>
            
 <footer class="fixed-bottom">
