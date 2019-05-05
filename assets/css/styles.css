@@ -33,11 +33,21 @@ h1 {margin-left: 20px;
 a {
 	color: white;
 	font-size: 22px;
-	padding-left: 80px;
+	padding-left: 60px;
+
 }
+nav a:hover{
+
+	color: orange !important;
+
+  }
+
 .img-responsive{
 	width: 100%;
+	border: 2px solid #666666;
 }
+
+
 .name {
 	color: #ffffff;
 	background-color: #4aaaa5;
@@ -51,7 +61,8 @@ a {
 
 .bio-box {
 	background-color: #ffffff;
-	margin-top: 20px;
+	margin-top: 5%;
+	margin-bottom: 10%;
 	padding: 50px;
 	color: #4aaaa5;
 	border: 2px solid #666666;
@@ -65,10 +76,12 @@ a {
 	background-color: #ffffff;
 	margin-top: 5%;
 	margin-bottom: 10%;
-    padding: 50px;
-    
-	color: #4aaaa5;
+    color: #4aaaa5;
 	border: 2px solid #666666;
+	padding: 5%;
+
+	
+
 }
 .contact-box {
 	background-color: #ffffff;
@@ -87,6 +100,8 @@ a {
 	padding-top: 10px;
 }
 
-btn-primary {
-	color: orange;
+.btn-primary {
+	color: orange !important;
+	background-color:#4aaaa5;
+
 }
